@@ -163,10 +163,6 @@ export default function App() {
     }
   };
 
-  const handleUpdateLeadStatus = (leadId: string, status: string) => {
-    setLeads(leads.map(l => l.id === leadId ? { ...l, status: status as any } : l));
-  };
-
   const handleUpdateVisitStatus = (id: string, status: string) => {
     if (status === 'COMPLETED') {
       if (navigator.geolocation) {
