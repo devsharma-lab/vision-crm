@@ -1,0 +1,5 @@
+{
+  "name": "Vision CRM",
+  "description": "A comprehensive CRM application with hierarchical RBAC, lead management, site visit tracking, and sales analytics.",
+  "requestFramePermissions": ["geolocation"]
+}
