@@ -279,6 +279,7 @@ export function VisitTracking({ visits, leads, onAddVisit, onUpdateStatus }: Vis
             </div>
           )}
         </Droppable>
+        </div>
       </div>
     </div>
   );
